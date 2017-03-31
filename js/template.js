@@ -57,7 +57,8 @@ var getBadges = function(t){
       // return an array of badge objects
       return [{
         title: 'Static Detail Badge', // for detail badges only
-        text: '<a href="http://google.com">Static </a>',
+        text: 'Static',
+        url: 'http://google.com',
         icon: icon, // for card front badges only
         color: badgeColor
       }];
