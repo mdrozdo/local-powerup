@@ -56,8 +56,8 @@ var getBadges = function(t){
     if(lowercaseName.indexOf('static') > -1){
       // return an array of badge objects
       return [{
-        title: 'Detail Badge', // for detail badges only
-        text: 'Static',
+        title: 'Static Detail Badge', // for detail badges only
+        text: '<a href="http://google.com">Static </a>',
         icon: icon, // for card front badges only
         color: badgeColor
       }];
